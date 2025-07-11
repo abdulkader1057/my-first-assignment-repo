@@ -2,106 +2,46 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
-    width: 1440px;
+body{
+    background-color: #f4f6fc;
+    color: #000;
+    line-height: 1.6;
 }
-.hero-section{
-    background-image: url('../Assets/Hero-bg.png');
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-}
-
-/* Navbar section */
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1140px;
-    height: 151px;
+.container{
+    width: 90%;
+    max-width: 1200px;
     margin: auto;
 }
-.logo{
-    font-size: 34px;
-    font-weight: bold;
-    color: #0057ff;
-}
 .btn-1{
+    background-color: #4f46e5;
     color: white;
-    background-color: #0057ff;
-    border-radius: 8px;
     padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 10px;
 }
-/* Banner section */
-.banner{
-    width: 905;
-    height: 105;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    padding: 30px 0;
+    border-bottom: 2px solid #e2e8f0;
     text-align: center;
-    padding: 20px;
 }
-.banner h1{
-    font-size: 45px;
-    margin-bottom: 20px;
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-/* Action section */
-.action-section {
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 80px;
-  gap: 40px;
-  background-color: #f8f8f8;
-  flex-wrap: wrap;
+.logo{
+    font-weight: bold;
+    color: #4f46e5;
 }
-
-/* Left side */
-.left-side {
-  max-width: 500px;
+.hero-content{
+    margin: 40px 0;
 }
-
-.title {
-  font-size: 28px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  color: #222;
-}
-
-.subtitle {
-  font-size: 16px;
-  margin-bottom: 20px;
-  color: #666;
-}
-.preview-btn {
-  padding: 10px 20px;
-  background-color: #0057ff;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.preview-btn:hover {
-  background-color: #003bb3;
-}
-
-/* Right side */
-.right-side img {
-  width: 400px;
-  border-radius: 24px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+.hero-content h2{
+    font-size: 2rem;
+    font-weight: bold;
 }
